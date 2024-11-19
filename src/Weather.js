@@ -21,7 +21,7 @@ const Weather = () => {
       const map = L.map('your-map-container-id').setView([0, 0], 2);
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© Likith & GP '
+        attribution: '© Likith'
       }).addTo(map);
 
       setMap(map);
